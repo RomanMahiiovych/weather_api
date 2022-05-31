@@ -40,8 +40,8 @@ services:
     volumes:
       - ./environment/mysql:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: lec
-      MYSQL_USER: lec-user
+      MYSQL_DATABASE: weather-db
+      MYSQL_USER: weather-user
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
       SERVICE_TAGS: dev
